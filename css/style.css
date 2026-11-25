@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f8;
+    color: #222;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #4f5b93;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.botao, button {
+    display: inline-block;
+    background: #4f5b93;
+    color: #fff;
+    padding: 8px 14px;
+    border: 0;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
